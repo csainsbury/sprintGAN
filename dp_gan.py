@@ -138,7 +138,7 @@ if __name__ == '__main__':
                  str(args.batch_size) + '/')
 
     if not os.path.exists(directory):
-        os.mkdir(directory)
+        os.mkdirs(directory)
 
     if args.clip_value > 0:
         # build the discriminator
